@@ -195,7 +195,8 @@
     font-weight: 300;
     position: relative;
 /*     width: 430px; */
-    margin: 30px auto 50px;
+    margin: 30px auto 30px;
+    color: azure;
 }
 .parallax-pro .label{
     font-size: 18px;
@@ -351,6 +352,7 @@
     margin-left: 10px;
     margin-top: 5px;
     width: 60px;
+    text-align: center;
 }
 .blurred-container .motto{
     color: #FFFFFF;
@@ -360,13 +362,13 @@
     text-align: center;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.33);
     text-transform: uppercase;
-    top: 100px;
+    top: 118px;
     z-index: 3;
 
     display: block;
     margin: 0 auto;
     position: relative;
-    width: 306px;
+    width: 340px;
     height: 0;
 }
 .blurred-container .motto .border{
@@ -382,7 +384,7 @@
 @media (max-width: 768px){
     .blurred-container .motto{
         font-size: 60px;
-        width: 268px;
+        width: 295px;
         top: 130px;
     }
 }
@@ -397,4 +399,9 @@
 .img-dog{
     display: inline-block;
     margin-bottom: 25px;
+}
+.service {
+    img {
+        width: 50%;
+    }
 }
